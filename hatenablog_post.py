@@ -10,7 +10,7 @@ import requests
 from chardet.universaldetector import UniversalDetector
 
 username = 'username'
-password = 'API key'
+api_key  = 'API key'
 blogname = 'yourblogname.hatenablog.com'
 
 def main():
