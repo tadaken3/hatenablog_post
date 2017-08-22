@@ -1,5 +1,5 @@
 # hatenablog_post
-python　script for posting hatena blog.　<br>　　
+python　script for posting hatena blog.　<br>
 you need python 3 more.　　
 
 # How to use
