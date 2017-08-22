@@ -20,7 +20,7 @@ $ sudo pip install chardet
 
 ~~~~
 username = 'username'
-password = 'API key'
+api_key = 'API key'
 blogname = 'yourblogname.hatenablog.com'
 ~~~~
 
