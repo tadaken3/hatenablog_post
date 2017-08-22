@@ -5,7 +5,7 @@ you nedd pｙthon 3 more.
 # How to use
 ## Preparation
 ~~~~
-$ git clone https://github.com/tadaken3/hatenablog-post.git
+$ git clone https://github.com/tadaken3/hatenablog_post.git
 ~~~~
 
 maybe you need <code>requests, chardet</code> library. Execute below command
@@ -15,7 +15,7 @@ $ sudo pip install requests, chardet
 ~~~~
 
 ## Setting
- Customize below part of `hatenablog-post.py` according to your hatena blog setting
+ Customize below part of `hatenablog_post.py` according to your hatena blog setting
 
 ~~~~
 username = 'username'
@@ -28,7 +28,7 @@ blogname = 'yourblogname.hatenablog.com'
  The first line is title.
  
 ~~~~
-$ python hatenablog-post blog.md
+$ python hatenablog_post blog.md
 ~~~~
 
 ## Licence
@@ -36,3 +36,5 @@ $ python hatenablog-post blog.md
 [MIT](https://github.com/tadaken3/hatenablog_post/blob/master/LICENSE)
 
 ## Author
+
+[tadaken3](https://github.com/tadaken3)
