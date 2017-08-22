@@ -1,5 +1,5 @@
 # hatenablog_post
-python　script for posting hatena blog.　<br>
+python script for posting hatena blog.　<br>
 you need python 3 more.　　
 
 # How to use
@@ -21,8 +21,8 @@ $ sudo pip install requests, chardet
 username = 'username'
 password = 'API key'
 blogname = 'yourblogname.hatenablog.com'
-
 ~~~~
+
 ## Posting
  Execute below command to post hatena blog. `blog.md` is text file written title and content.<br>
  The first line is title.
