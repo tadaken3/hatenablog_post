@@ -29,7 +29,7 @@ blogname = 'yourblogname.hatenablog.com'
  The first line is title.
  
 ~~~~
-$ python hatenablog_post blog.md
+$ python hatenablog_post.py blog.md
 ~~~~
 
 ## Licence
