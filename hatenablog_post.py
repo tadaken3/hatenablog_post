@@ -9,10 +9,14 @@ import base64
 import requests
 from chardet.universaldetector import UniversalDetector
 
+__author__ = 'tadaken3 <http://tadaken3.hatenablog.jp/>'
+
+# setting -----------------------------------------------------------
 username = 'username'
 api_key  = 'API key'
 blogname = 'yourblogname.hatenablog.com'
 
+# main -----------------------------------------------------------
 def main():
     if len(sys.argv) != 2:
         sys.exit('Usage: %s file-name' % sys.argv[0])
