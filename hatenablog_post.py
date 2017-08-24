@@ -23,7 +23,7 @@ def main():
 
     file = sys.argv[1]
     charset = check_encoding(file)
-    title, body = parseText(file, charset)
+    title, body = parse_ｔext(file, charset)
     data = create_data(title, body)
     post_hatena(data)
 
@@ -50,7 +50,7 @@ def create_data(title,body):
     data = template.format(title, body).encode()
     return data
 
-def parseText(file, charset):
+def parse_ｔext(file, charset):
     with open(file, encoding=charset) as f:
         obj = f.readlines()
         title = ""
