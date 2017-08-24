@@ -11,8 +11,8 @@ $ git clone https://github.com/tadaken3/hatenablog_post.git
 maybe you need <code>requests, chardet</code> library. Execute below command
 
 ~~~~
-$ sudo pip install requests
-$ sudo pip install chardet
+$ pip install requests
+$ pip install chardet
 ~~~~
 
 ## Setting
